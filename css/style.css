@@ -5,3 +5,41 @@
     padding: 0px ;
     margin: 0px;
 }
+
+.section-heading{
+ text-align: center;
+  color: green; 
+}
+.section-sub-heading{
+  text-align: center;
+}
+/*class for products in Product menu*/
+.product{
+  background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    position: relative;
+    margin-top: .7rem;
+    box-shadow: 0px 0px 9px 1px lightgrey;
+    -webkit-box-shadow: 0px 0px 9px 1px lightgrey;
+    
+}
+.product p {
+  padding-left: .5rem ;
+}
+.img-product{
+  padding: 5px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.shoping-icon{
+  color: rgb(233, 232, 232);
+  background-color: green;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

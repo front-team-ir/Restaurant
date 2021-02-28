@@ -1,24 +1,79 @@
 <!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <!-- Menu & Top nav -->
     <nav id="navbar"></nav>
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <main id="home"></main>
     <section id="about-us"></section>
     <section id="services" class="row"></section>
-    <section id="restaurant-menu"></section>
+    <!-- Menu section  -->
+    <section id="restaurant-menu" class="container">
+      <p class="section-heading">Services</p>
+    <h3 class="section-sub-heading">Menu of the week</h3>
+      <div class="row">
+        <div class=" col-6 col-md-4">
+          <div class='product'>
+            <img src="img/plate1.png" alt="Barbecue" class="img-product" />
+            <p>Barbecue salad</p>
+            <p>Delicious dish</p>
+            <p>$22.00</p>
+            <br />
+            <a href=""
+              ><span class="fas fa-shopping-cart shoping-icon"></span
+            ></a>
+          </div>
+        </div>
+        <div
+          class=" col-6 col-md-4"
+          
+        >
+          <div class='product'>
+            <img src="img/plate2.png" alt="Barbecue" class="img-product" />
+            <p>Salad with fish</p>
+            <p>Delicious dish</p>
+            <p>$12.00</p>
+            <br />
+            <a href=""
+              ><span class="fas fa-shopping-cart shoping-icon"></span
+            ></a>
+          </div>
+        </div>
+        <div
+          class=" col-6 col-md-4"
+          
+        >
+          <div class='product'>
+            <img src="img/plate3.png" alt="Barbecue" class="img-product" />
+            <p>Spanish salad</p>
+            <p>Delicious dish</p>
+            <p>$9.50</p>
+            <br />
+            <a href=""
+              ><span class="fas fa-shopping-cart shoping-icon"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App section -->
     <section id="android-app"></section>
     <section id="contact-us"></section>
     <footer id="main-footer"></footer>
     <footer id="copy-right"></footer>
     <noscript>Please Activate Your Browsers JavaScript!!!</noscript>
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
