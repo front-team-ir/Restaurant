@@ -17,9 +17,11 @@
     box-sizing: border-box;
     padding: 0px ;
     margin: 0px;
-    font-family: 'pappins';  
+    font-family: pappins;  
 }
-
+.green-color{
+  color: var(--main-color);
+}
 .section-heading{
  text-align: center;
   color: var(--main-color); 
@@ -28,7 +30,19 @@
   text-align: center;
   color: var(--title-color);
 }
-/*class for products in Product menu*/
+/*////////////////// /////////////class for home section///////////////////////////////////// */
+.home-btn{
+    padding: 15px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--container-color);
+    display: block;
+    max-width: 30%;
+    margin: 0px auto;
+    text-align: center;
+}
+/*///////////////////////////class for products in Product menu////////////////////////////*/
 .product{
   background-color: var(--container-color);
     border-radius: 10px;
