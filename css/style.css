@@ -1,21 +1,37 @@
 @import './_grid.css';
 
+:root{
+  --main-color : #069c54;
+  --main-color-alt : #048654;
+  --title-color : #393939;
+  --text-color : #707070;
+  --text-color-light : #a6a6a6;
+  --body-color : #fbf3fd;
+  --container-color : #ffffff;
+}
+@font-face{
+    font-family: pappins;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
 *{
     box-sizing: border-box;
     padding: 0px ;
     margin: 0px;
+    font-family: pappins;
+    
 }
 
 .section-heading{
  text-align: center;
-  color: green; 
+  color: var(--main-color); 
 }
 .section-sub-heading{
   text-align: center;
+  color: var(--title-color);
 }
 /*class for products in Product menu*/
 .product{
-  background-color: rgb(209, 209, 209);
+  background-color: var(--container-color);
     border-radius: 10px;
     position: relative;
     margin-top: .7rem;
@@ -34,8 +50,8 @@
   width: 55%;
 }
 .shoping-icon{
-  color: rgb(233, 232, 232);
-  background-color: green;
+  color:var(--container-color);
+  background-color: var(--main-color);
     padding: 8px;
     position: absolute;
     right: 0;
